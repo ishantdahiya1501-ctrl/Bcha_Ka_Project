@@ -1,0 +1,30 @@
+# ── Dependencies ──
+node_modules/
+
+# ── Runtime data ──
+data/
+
+# ── Secrets (NEVER commit) ──
+.env
+
+# ── Prompt files (local only) ──
+promt.txt
+prompt2
+prompt3.txt
+
+# ── Hardware files (large, not needed for deployment) ──
+PCB/
+
+# ── Generated sample files (recreated on first run) ──
+sample-timetable.xlsx
+sample-timetable.csv
+
+# ── OS / editor junk ──
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+.vscode/
+.idea/
+*.swp
+*~

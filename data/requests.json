@@ -1,0 +1,30 @@
+[
+  {
+    "id": "r_369325d686c0",
+    "teacherId": "u_5549d7e78542",
+    "teacherName": "ddd",
+    "day": "Monday",
+    "period": "Period 1 · 08:00–08:45",
+    "date": "",
+    "reason": "dss",
+    "status": "approved",
+    "assignedTo": "u_6d764114ed66",
+    "assignedName": "Amit Joshi",
+    "adminNote": "Auto-assigned to Amit Joshi — free that period.",
+    "createdAt": "2026-08-14T03:38:09.128Z"
+  },
+  {
+    "id": "r_90d763cc9ad3",
+    "teacherId": "u_5549d7e78542",
+    "teacherName": "ddd",
+    "day": "Monday",
+    "period": "Period 1 · 08:00–08:45",
+    "date": "",
+    "reason": "rs",
+    "status": "denied",
+    "assignedTo": null,
+    "assignedName": "",
+    "adminNote": "bbb",
+    "createdAt": "2026-08-14T03:40:29.435Z"
+  }
+]

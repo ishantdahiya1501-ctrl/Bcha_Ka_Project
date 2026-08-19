@@ -1,0 +1,150 @@
+so the new changes should work like this every class will have one node mcu if no teacher will come in class then if the button is pressed from esp 32 update are sent to the webste telling the teacher to go to there class or request for and arrangemt for there class.
+
+Modify the existing website to integrate with my ESP32 signal system.
+
+### Hardware architecture
+
+There are 3 ESP32 boards:
+
+* **ESP32 Master** — receives signals from the two sender ESP32s.
+* **ESP32 Sender 1** — sends a signal identified as `SENDER 1`.
+* **ESP32 Sender 2** — sends a signal identified as `SENDER 2`.
+
+The communication between the senders and Master currently uses **ESP-NOW**.
+
+The Master receives a packet containing:
+
+```text
+senderID = 1 or 2
+message = "SIGNAL"
+```
+
+The Master currently displays the received sender on an LCD for 2 seconds and then returns to its default `MASTER ESP32 / READY` screen.
+
+### Website feature to add
+
+Add a real-time **ESP32 Signal Monitor** to the existing website.
+
+The website should display:
+
+* Current Master ESP32 connection status
+* Sender 1 status
+* Sender 2 status
+* Most recent signal
+* Which sender triggered the signal
+* Time the signal was received
+* A signal history/log
+
+When the Master receives a signal from Sender 1, the website should immediately show:
+
+```text
+SIGNAL RECEIVED
+FROM: SENDER 1
+```
+
+When Sender 2 sends a signal:
+
+```text
+SIGNAL RECEIVED
+FROM: SENDER 2
+```
+
+### Important behavior
+
+The website notification should remain visible for **2 seconds**, matching the Master LCD behavior.
+
+After 2 seconds, the active signal indicator should return to:
+
+```text
+READY
+```
+
+However, the signal should remain in the **signal history/log** permanently until the user clears the history.
+
+### Signal history
+
+Create a table/list containing:
+
+| Time     | Sender   | Message |
+| -------- | -------- | ------- |
+| 13:25:04 | Sender 1 | SIGNAL  |
+| 13:26:17 | Sender 2 | SIGNAL  |
+
+Newest signals should appear first.
+
+### Architecture
+
+Do NOT try to make the website communicate directly with ESP-NOW.
+
+The intended architecture is:
+
+```text
+ESP32 Sender 1 ──┐
+                  │
+ESP32 Sender 2 ──┼── ESP-NOW ──> ESP32 Master
+                  │                  │
+                  │                  │
+                  │                  ▼
+                  │              Internet
+                  │                  │
+                  │                  ▼
+                  └────────────> Website
+```
+
+The Master ESP32 will eventually be responsible for forwarding received signals to the website over the internet.
+
+For now, implement the **website/backend side of this integration** using a clean API/WebSocket architecture so that the ESP32 Master can send events to it.
+
+Create an endpoint/API such as:
+
+```text
+POST /api/signal
+```
+
+with JSON such as:
+
+```json
+{
+  "senderID": 1,
+  "message": "SIGNAL",
+  "timestamp": "2026-08-13T13:25:04"
+}
+```
+
+The backend should validate the incoming data and broadcast the signal to connected website clients in real time.
+
+Prefer **WebSockets or Server-Sent Events** for real-time browser updates rather than requiring the browser to constantly refresh or poll.
+
+### Requirements
+
+1. Inspect the existing project before modifying anything.
+2. Preserve the existing website's design and functionality.
+3. Do not unnecessarily rewrite the existing application.
+4. Follow the project's existing framework, language, folder structure, and coding conventions.
+5. Add the backend API required for the ESP32 Master.
+6. Add real-time updates to the frontend.
+7. Add the signal notification/indicator.
+8. Add signal history.
+9. Add a clear-history control.
+10. Handle ESP32 disconnection gracefully.
+11. Clearly indicate whether the Master is connected or offline.
+12. Add appropriate error handling and input validation.
+13. Do not hard-code fake signal data in the final implementation.
+14. Make the system ready for the ESP32 Master to send real signals.
+
+### Important
+
+First inspect the existing website and determine its technology stack and architecture.
+
+Then implement the integration using the project's existing technologies rather than introducing an unnecessary new framework.
+
+After making the changes, explain:
+
+* Which files were modified
+* Which files were created
+* How the API works
+* How the ESP32 Master should eventually send the signal
+* How the frontend receives real-time events
+* How to run/test the complete system
+* Any environment variables or configuration that need to be added
+

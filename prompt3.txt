@@ -1,0 +1,10 @@
+you are to first look at the readme.md and ESP32-Readme.md to know how the project works 
+after that your job is to add an option to add an option while regitering teachers to the website
+that will as for there mobile number as we are integrating call mechnaisz to site for now for every 
+teacher that are already registered the mobile number will be 8750441860 for testing the calling will 
+trggered when the teacher who is not in class and the button(from d1 mini) is pressed from the class
+for now make it so that were ever you are you need to write the api key use place holder we will use
+twilio api for this. or make a .env file for enviroment variables also now we will switch from local to 
+actul monogo DB database and render service for this so inegrate it to in the code and every key will be 
+place holder and i will only add those place holders with actual key in the .env file so that i will not 
+need to go everyware to write them.

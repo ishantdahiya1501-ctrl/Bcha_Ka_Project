@@ -1,0 +1,553 @@
+{
+  "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+  ],
+  "periods": [
+    "Period 1 · 08:00–08:45",
+    "Period 2 · 08:45–09:30",
+    "Period 3 · 09:30–10:15",
+    "Period 4 · 10:30–11:15",
+    "Period 5 · 11:15–12:00",
+    "Period 6 · 12:00–16:45"
+  ],
+  "classes": [
+    "9A",
+    "9B",
+    "10A",
+    "10B"
+  ],
+  "slots": {
+    "9A": {
+      "Monday": {
+        "Period 1 · 08:00–08:45": {
+          "subject": "Mathematics",
+          "teacher": "Priya Verma"
+        },
+        "Period 2 · 08:45–09:30": {
+          "subject": "English",
+          "teacher": "Farhan Khan"
+        },
+        "Period 3 · 09:30–10:15": {
+          "subject": "Physics",
+          "teacher": "Rahul Kapoor"
+        },
+        "Period 4 · 10:30–11:15": {
+          "subject": "Hindi",
+          "teacher": "Amit Joshi"
+        },
+        "Period 5 · 11:15–12:00": {
+          "subject": "Social Studies",
+          "teacher": "Rohan Das"
+        },
+        "Period 6 · 12:00–16:45": {
+          "subject": "Computer Science",
+          "teacher": "Varun Khanna"
+        }
+      },
+      "Tuesday": {
+        "Period 1 · 08:00–08:45": {
+          "subject": "Mathematics",
+          "teacher": "Rohit Sharma"
+        },
+        "Period 2 · 08:45–09:30": {
+          "subject": "English",
+          "teacher": "Neha Gupta"
+        },
+        "Period 3 · 09:30–10:15": {
+          "subject": "Biology",
+          "teacher": "Meera Nair"
+        },
+        "Period 4 · 10:30–11:15": {
+          "subject": "Artificial Intelligence",
+          "teacher": "Ishita Rao"
+        },
+        "Period 5 · 11:15–12:00": {
+          "subject": "History",
+          "teacher": "Anjali Singh"
+        },
+        "Period 6 · 12:00–16:45": {
+          "subject": "Geography",
+          "teacher": "Suresh Menon"
+        }
+      },
+      "Wednesday": {
+        "Period 1 · 08:00–08:45": {
+          "subject": "Mathematics",
+          "teacher": "Kavita Nair"
+        },
+        "Period 2 · 08:45–09:30": {
+          "subject": "English",
+          "teacher": "Aditya Bose"
+        },
+        "Period 3 · 09:30–10:15": {
+          "subject": "Chemistry",
+          "teacher": "Sneha Iyer"
+        },
+        "Period 4 · 10:30–11:15": {
+          "subject": "Hindi",
+          "teacher": "Divya Malhotra"
+        },
+        "Period 5 · 11:15–12:00": {
+          "subject": "Sanskrit",
+          "teacher": "Kavita Sharma"
+        },
+        "Period 6 · 12:00–16:45": {
+          "subject": "Physical Education",
+          "teacher": "Manish Yadav"
+        }
+      },
+      "Thursday": {
+        "Period 1 · 08:00–08:45": {
+          "subject": "Mathematics",
+          "teacher": "Priya Verma"
+        },
+        "Period 2 · 08:45–09:30": {
+          "subject": "English",
+          "teacher": "Farhan Khan"
+        },
+        "Period 3 · 09:30–10:15": {
+          "subject": "Physics",
+          "teacher": "Ananya Iyer"
+        },
+        "Period 4 · 10:30–11:15": {
+          "subject": "Economics",
+          "teacher": "Sunil Kumar"
+        },
+        "Period 5 · 11:15–12:00": {
+          "subject": "Chemistry",
+          "teacher": "Vikram Mehta"
+        },
+        "Period 6 · 12:00–16:45": {
+          "subject": "Social Studies",
+          "teacher": "Rohan Das"
+        }
+      },
+      "Friday": {
+        "Period 1 · 08:00–08:45": {
+          "subject": "Mathematics",
+          "teacher": "Rohit Sharma"
+        },
+        "Period 2 · 08:45–09:30": {
+          "subject": "English",
+          "teacher": "Neha Gupta"
+        },
+        "Period 3 · 09:30–10:15": {
+          "subject": "Biology",
+          "teacher": "Arjun Patel"
+        },
+        "Period 4 · 10:30–11:15": {
+          "subject": "Computer Science",
+          "teacher": "Varun Khanna"
+        },
+        "Period 5 · 11:15–12:00": {
+          "subject": "Accountancy",
+          "teacher": "Pooja Reddy"
+        },
+        "Period 6 · 12:00–16:45": {
+          "subject": "Business Studies",
+          "teacher": "Ritu Sharma"
+        }
+      }
+    },
+    "9B": {
+      "Monday": {
+        "Period 1 · 08:00–08:45": {
+          "subject": "English",
+          "teacher": "Aditya Bose"
+        },
+        "Period 2 · 08:45–09:30": {
+          "subject": "Biology",
+          "teacher": "Meera Nair"
+        },
+        "Period 3 · 09:30–10:15": {
+          "subject": "Artificial Intelligence",
+          "teacher": "Ishita Rao"
+        },
+        "Period 4 · 10:30–11:15": {
+          "subject": "History",
+          "teacher": "Anjali Singh"
+        },
+        "Period 5 · 11:15–12:00": {
+          "subject": "Geography",
+          "teacher": "Suresh Menon"
+        },
+        "Period 6 · 12:00–16:45": {
+          "subject": "Mathematics",
+          "teacher": "Kavita Nair"
+        }
+      },
+      "Tuesday": {
+        "Period 1 · 08:00–08:45": {
+          "subject": "English",
+          "teacher": "Farhan Khan"
+        },
+        "Period 2 · 08:45–09:30": {
+          "subject": "Chemistry",
+          "teacher": "Sneha Iyer"
+        },
+        "Period 3 · 09:30–10:15": {
+          "subject": "Hindi",
+          "teacher": "Amit Joshi"
+        },
+        "Period 4 · 10:30–11:15": {
+          "subject": "Sanskrit",
+          "teacher": "Kavita Sharma"
+        },
+        "Period 5 · 11:15–12:00": {
+          "subject": "Physical Education",
+          "teacher": "Manish Yadav"
+        },
+        "Period 6 · 12:00–16:45": {
+          "subject": "Mathematics",
+          "teacher": "Priya Verma"
+        }
+      },
+      "Wednesday": {
+        "Period 1 · 08:00–08:45": {
+          "subject": "English",
+          "teacher": "Neha Gupta"
+        },
+        "Period 2 · 08:45–09:30": {
+          "subject": "Physics",
+          "teacher": "Rahul Kapoor"
+        },
+        "Period 3 · 09:30–10:15": {
+          "subject": "Economics",
+          "teacher": "Sunil Kumar"
+        },
+        "Period 4 · 10:30–11:15": {
+          "subject": "Chemistry",
+          "teacher": "Vikram Mehta"
+        },
+        "Period 5 · 11:15–12:00": {
+          "subject": "Social Studies",
+          "teacher": "Rohan Das"
+        },
+        "Period 6 · 12:00–16:45": {
+          "subject": "Mathematics",
+          "teacher": "Rohit Sharma"
+        }
+      },
+      "Thursday": {
+        "Period 1 · 08:00–08:45": {
+          "subject": "English",
+          "teacher": "Aditya Bose"
+        },
+        "Period 2 · 08:45–09:30": {
+          "subject": "Biology",
+          "teacher": "Arjun Patel"
+        },
+        "Period 3 · 09:30–10:15": {
+          "subject": "Computer Science",
+          "teacher": "Varun Khanna"
+        },
+        "Period 4 · 10:30–11:15": {
+          "subject": "Accountancy",
+          "teacher": "Pooja Reddy"
+        },
+        "Period 5 · 11:15–12:00": {
+          "subject": "Business Studies",
+          "teacher": "Ritu Sharma"
+        },
+        "Period 6 · 12:00–16:45": {
+          "subject": "Mathematics",
+          "teacher": "Kavita Nair"
+        }
+      },
+      "Friday": {
+        "Period 1 · 08:00–08:45": {
+          "subject": "English",
+          "teacher": "Farhan Khan"
+        },
+        "Period 2 · 08:45–09:30": {
+          "subject": "Physics",
+          "teacher": "Ananya Iyer"
+        },
+        "Period 3 · 09:30–10:15": {
+          "subject": "Hindi",
+          "teacher": "Divya Malhotra"
+        },
+        "Period 4 · 10:30–11:15": {
+          "subject": "Social Studies",
+          "teacher": "Rohan Das"
+        },
+        "Period 5 · 11:15–12:00": {
+          "subject": "Computer Science",
+          "teacher": "Varun Khanna"
+        },
+        "Period 6 · 12:00–16:45": {
+          "subject": "Mathematics",
+          "teacher": "Priya Verma"
+        }
+      }
+    },
+    "10A": {
+      "Monday": {
+        "Period 1 · 08:00–08:45": {
+          "subject": "Chemistry",
+          "teacher": "Sneha Iyer"
+        },
+        "Period 2 · 08:45–09:30": {
+          "subject": "Hindi",
+          "teacher": "Amit Joshi"
+        },
+        "Period 3 · 09:30–10:15": {
+          "subject": "Sanskrit",
+          "teacher": "Kavita Sharma"
+        },
+        "Period 4 · 10:30–11:15": {
+          "subject": "Physical Education",
+          "teacher": "Manish Yadav"
+        },
+        "Period 5 · 11:15–12:00": {
+          "subject": "Mathematics",
+          "teacher": "Rohit Sharma"
+        },
+        "Period 6 · 12:00–16:45": {
+          "subject": "English",
+          "teacher": "Neha Gupta"
+        }
+      },
+      "Tuesday": {
+        "Period 1 · 08:00–08:45": {
+          "subject": "Physics",
+          "teacher": "Rahul Kapoor"
+        },
+        "Period 2 · 08:45–09:30": {
+          "subject": "Economics",
+          "teacher": "Sunil Kumar"
+        },
+        "Period 3 · 09:30–10:15": {
+          "subject": "Chemistry",
+          "teacher": "Vikram Mehta"
+        },
+        "Period 4 · 10:30–11:15": {
+          "subject": "Social Studies",
+          "teacher": "Rohan Das"
+        },
+        "Period 5 · 11:15–12:00": {
+          "subject": "Mathematics",
+          "teacher": "Kavita Nair"
+        },
+        "Period 6 · 12:00–16:45": {
+          "subject": "English",
+          "teacher": "Aditya Bose"
+        }
+      },
+      "Wednesday": {
+        "Period 1 · 08:00–08:45": {
+          "subject": "Biology",
+          "teacher": "Meera Nair"
+        },
+        "Period 2 · 08:45–09:30": {
+          "subject": "Computer Science",
+          "teacher": "Varun Khanna"
+        },
+        "Period 3 · 09:30–10:15": {
+          "subject": "Accountancy",
+          "teacher": "Pooja Reddy"
+        },
+        "Period 4 · 10:30–11:15": {
+          "subject": "Business Studies",
+          "teacher": "Ritu Sharma"
+        },
+        "Period 5 · 11:15–12:00": {
+          "subject": "Mathematics",
+          "teacher": "Priya Verma"
+        },
+        "Period 6 · 12:00–16:45": {
+          "subject": "English",
+          "teacher": "Farhan Khan"
+        }
+      },
+      "Thursday": {
+        "Period 1 · 08:00–08:45": {
+          "subject": "Physics",
+          "teacher": "Ananya Iyer"
+        },
+        "Period 2 · 08:45–09:30": {
+          "subject": "Hindi",
+          "teacher": "Divya Malhotra"
+        },
+        "Period 3 · 09:30–10:15": {
+          "subject": "Social Studies",
+          "teacher": "Rohan Das"
+        },
+        "Period 4 · 10:30–11:15": {
+          "subject": "Computer Science",
+          "teacher": "Varun Khanna"
+        },
+        "Period 5 · 11:15–12:00": {
+          "subject": "Mathematics",
+          "teacher": "Rohit Sharma"
+        },
+        "Period 6 · 12:00–16:45": {
+          "subject": "English",
+          "teacher": "Neha Gupta"
+        }
+      },
+      "Friday": {
+        "Period 1 · 08:00–08:45": {
+          "subject": "Biology",
+          "teacher": "Arjun Patel"
+        },
+        "Period 2 · 08:45–09:30": {
+          "subject": "Artificial Intelligence",
+          "teacher": "Ishita Rao"
+        },
+        "Period 3 · 09:30–10:15": {
+          "subject": "History",
+          "teacher": "Anjali Singh"
+        },
+        "Period 4 · 10:30–11:15": {
+          "subject": "Geography",
+          "teacher": "Suresh Menon"
+        },
+        "Period 5 · 11:15–12:00": {
+          "subject": "Mathematics",
+          "teacher": "Kavita Nair"
+        },
+        "Period 6 · 12:00–16:45": {
+          "subject": "English",
+          "teacher": "Aditya Bose"
+        }
+      }
+    },
+    "10B": {
+      "Monday": {
+        "Period 1 · 08:00–08:45": {
+          "subject": "Economics",
+          "teacher": "Sunil Kumar"
+        },
+        "Period 2 · 08:45–09:30": {
+          "subject": "Chemistry",
+          "teacher": "Sneha Iyer"
+        },
+        "Period 3 · 09:30–10:15": {
+          "subject": "Social Studies",
+          "teacher": "Rohan Das"
+        },
+        "Period 4 · 10:30–11:15": {
+          "subject": "Mathematics",
+          "teacher": "Priya Verma"
+        },
+        "Period 5 · 11:15–12:00": {
+          "subject": "English",
+          "teacher": "Farhan Khan"
+        },
+        "Period 6 · 12:00–16:45": {
+          "subject": "Biology",
+          "teacher": "Meera Nair"
+        }
+      },
+      "Tuesday": {
+        "Period 1 · 08:00–08:45": {
+          "subject": "Computer Science",
+          "teacher": "Varun Khanna"
+        },
+        "Period 2 · 08:45–09:30": {
+          "subject": "Accountancy",
+          "teacher": "Pooja Reddy"
+        },
+        "Period 3 · 09:30–10:15": {
+          "subject": "Business Studies",
+          "teacher": "Ritu Sharma"
+        },
+        "Period 4 · 10:30–11:15": {
+          "subject": "Mathematics",
+          "teacher": "Rohit Sharma"
+        },
+        "Period 5 · 11:15–12:00": {
+          "subject": "English",
+          "teacher": "Neha Gupta"
+        },
+        "Period 6 · 12:00–16:45": {
+          "subject": "Physics",
+          "teacher": "Rahul Kapoor"
+        }
+      },
+      "Wednesday": {
+        "Period 1 · 08:00–08:45": {
+          "subject": "Hindi",
+          "teacher": "Amit Joshi"
+        },
+        "Period 2 · 08:45–09:30": {
+          "subject": "Social Studies",
+          "teacher": "Rohan Das"
+        },
+        "Period 3 · 09:30–10:15": {
+          "subject": "Computer Science",
+          "teacher": "Varun Khanna"
+        },
+        "Period 4 · 10:30–11:15": {
+          "subject": "Mathematics",
+          "teacher": "Kavita Nair"
+        },
+        "Period 5 · 11:15–12:00": {
+          "subject": "English",
+          "teacher": "Aditya Bose"
+        },
+        "Period 6 · 12:00–16:45": {
+          "subject": "Biology",
+          "teacher": "Arjun Patel"
+        }
+      },
+      "Thursday": {
+        "Period 1 · 08:00–08:45": {
+          "subject": "Artificial Intelligence",
+          "teacher": "Ishita Rao"
+        },
+        "Period 2 · 08:45–09:30": {
+          "subject": "History",
+          "teacher": "Anjali Singh"
+        },
+        "Period 3 · 09:30–10:15": {
+          "subject": "Geography",
+          "teacher": "Suresh Menon"
+        },
+        "Period 4 · 10:30–11:15": {
+          "subject": "Mathematics",
+          "teacher": "Priya Verma"
+        },
+        "Period 5 · 11:15–12:00": {
+          "subject": "English",
+          "teacher": "Farhan Khan"
+        },
+        "Period 6 · 12:00–16:45": {
+          "subject": "Chemistry",
+          "teacher": "Vikram Mehta"
+        }
+      },
+      "Friday": {
+        "Period 1 · 08:00–08:45": {
+          "subject": "Hindi",
+          "teacher": "Divya Malhotra"
+        },
+        "Period 2 · 08:45–09:30": {
+          "subject": "Sanskrit",
+          "teacher": "Kavita Sharma"
+        },
+        "Period 3 · 09:30–10:15": {
+          "subject": "Physical Education",
+          "teacher": "Manish Yadav"
+        },
+        "Period 4 · 10:30–11:15": {
+          "subject": "Mathematics",
+          "teacher": "Rohit Sharma"
+        },
+        "Period 5 · 11:15–12:00": {
+          "subject": "English",
+          "teacher": "Neha Gupta"
+        },
+        "Period 6 · 12:00–16:45": {
+          "subject": "Physics",
+          "teacher": "Ananya Iyer"
+        }
+      }
+    }
+  }
+}

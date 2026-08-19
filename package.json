@@ -1,0 +1,31 @@
+{
+  "name": "eduflow-teacher-dashboard",
+  "version": "2.0.0",
+  "description": "EduFlow — Teacher Dashboard & Substitution Management System. Admin + teacher roles, Excel timetable upload, auto-assigned substitution requests, and Twilio-powered teacher calling.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "sample": "node scripts/generate-sample.js",
+    "teachers": "node scripts/add-timetable-teachers.js"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.6.1",
+    "mongodb": "^6.21.0",
+    "twilio": "^5.13.1"
+  },
+  "keywords": [
+    "teacher",
+    "dashboard",
+    "timetable",
+    "substitution",
+    "school",
+    "excel",
+    "twilio",
+    "mongodb"
+  ],
+  "license": "MIT"
+}

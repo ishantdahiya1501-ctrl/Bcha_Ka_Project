@@ -1,0 +1,169 @@
+{
+  "master": {
+    "lastSeenAt": "2026-08-15T23:27:07.072Z"
+  },
+  "history": [
+    {
+      "id": "sig_754dc99a0f2a",
+      "senderID": 4,
+      "sender": "Sender 4",
+      "message": "SIGNAL",
+      "timestamp": "2026-08-15T23:27:07.072Z",
+      "receivedAt": "2026-08-15T23:27:07.072Z",
+      "className": "10B",
+      "day": "Sunday",
+      "period": "",
+      "subject": "",
+      "teacher": ""
+    },
+    {
+      "id": "sig_19571edeb7db",
+      "senderID": 4,
+      "sender": "Sender 4",
+      "message": "SIGNAL",
+      "timestamp": "2026-08-15T23:27:04.007Z",
+      "receivedAt": "2026-08-15T23:27:04.007Z",
+      "className": "10B",
+      "day": "Sunday",
+      "period": "",
+      "subject": "",
+      "teacher": ""
+    },
+    {
+      "id": "sig_9bad2677b5d4",
+      "senderID": 4,
+      "sender": "Sender 4",
+      "message": "SIGNAL",
+      "timestamp": "2026-08-15T23:26:53.203Z",
+      "receivedAt": "2026-08-15T23:26:53.203Z",
+      "className": "10B",
+      "day": "Sunday",
+      "period": "",
+      "subject": "",
+      "teacher": ""
+    },
+    {
+      "id": "sig_698e9d985635",
+      "senderID": 4,
+      "sender": "Sender 4",
+      "message": "SIGNAL",
+      "timestamp": "2026-08-15T23:26:51.365Z",
+      "receivedAt": "2026-08-15T23:26:51.365Z",
+      "className": "10B",
+      "day": "Sunday",
+      "period": "",
+      "subject": "",
+      "teacher": ""
+    },
+    {
+      "id": "sig_7933465477b0",
+      "senderID": 4,
+      "sender": "Sender 4",
+      "message": "SIGNAL",
+      "timestamp": "2026-08-15T23:26:50.329Z",
+      "receivedAt": "2026-08-15T23:26:50.329Z",
+      "className": "10B",
+      "day": "Sunday",
+      "period": "",
+      "subject": "",
+      "teacher": ""
+    },
+    {
+      "id": "sig_7af105f0a9b7",
+      "senderID": 3,
+      "sender": "Sender 3",
+      "message": "SIGNAL",
+      "timestamp": "2026-08-15T22:44:07.056Z",
+      "receivedAt": "2026-08-15T22:44:07.056Z",
+      "className": "10A",
+      "day": "Sunday",
+      "period": "",
+      "subject": "",
+      "teacher": ""
+    },
+    {
+      "id": "sig_c12acb233c9c",
+      "senderID": 3,
+      "sender": "Sender 3",
+      "message": "SIGNAL",
+      "timestamp": "2026-08-15T22:43:57.922Z",
+      "receivedAt": "2026-08-15T22:43:57.922Z",
+      "className": "10A",
+      "day": "Sunday",
+      "period": "",
+      "subject": "",
+      "teacher": ""
+    },
+    {
+      "id": "sig_87db6b6aeedc",
+      "senderID": 2,
+      "sender": "Sender 2",
+      "message": "SIGNAL",
+      "timestamp": "2026-08-15T22:37:41.398Z",
+      "receivedAt": "2026-08-15T22:37:41.398Z",
+      "className": "9B",
+      "day": "Sunday",
+      "period": "",
+      "subject": "",
+      "teacher": ""
+    },
+    {
+      "id": "sig_0860fd52b6a4",
+      "senderID": 2,
+      "sender": "Sender 2",
+      "message": "SIGNAL",
+      "timestamp": "2026-08-15T22:37:28.189Z",
+      "receivedAt": "2026-08-15T22:37:28.189Z",
+      "className": "9B",
+      "day": "Sunday",
+      "period": "",
+      "subject": "",
+      "teacher": ""
+    },
+    {
+      "id": "sig_743f052840de",
+      "senderID": 1,
+      "sender": "Sender 1",
+      "message": "SIGNAL",
+      "timestamp": "2026-08-15T22:27:47.658Z",
+      "receivedAt": "2026-08-15T22:27:47.658Z",
+      "className": "9A",
+      "day": "Sunday",
+      "period": "",
+      "subject": "",
+      "teacher": ""
+    },
+    {
+      "id": "sig_ce3b8b45fed7",
+      "senderID": 1,
+      "sender": "Sender 1",
+      "message": "SIGNAL",
+      "timestamp": "2026-08-15T22:27:38.659Z",
+      "receivedAt": "2026-08-15T22:27:38.659Z",
+      "className": "9A",
+      "day": "Sunday",
+      "period": "",
+      "subject": "",
+      "teacher": ""
+    }
+  ],
+  "senders": [
+    {
+      "senderID": 1,
+      "className": "9A"
+    },
+    {
+      "senderID": 2,
+      "className": "9B"
+    },
+    {
+      "senderID": 3,
+      "className": "10A"
+    },
+    {
+      "senderID": 4,
+      "className": "10B"
+    }
+  ],
+  "notifications": []
+}
